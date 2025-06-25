@@ -9,7 +9,7 @@ const TodoApp = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // API base URL - replace with your actual backend URL
+  // API base URL - replace with your actual backend URl
   const API_BASE_URL = "http://localhost:5000/api/todos";
 
   // Fetch todos from API
